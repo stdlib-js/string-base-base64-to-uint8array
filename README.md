@@ -46,6 +46,11 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-base64-to-uint8array/tags). For example,
+
+```javascript
 import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var out = base64ToUint8Array( str );
 <script type="module">
 
 import string2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-string@esm/index.mjs';
-import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-esm/index.mjs';
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@esm/index.mjs';
 
 var buf = string2buffer( 'Hello World!' ).toString( 'base64' );
 // returns 'SGVsbG8gV29ybGQh'
