@@ -46,6 +46,11 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-base64-to-uint8array/tags). For example,
+
+```javascript
 import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-deno/mod.js';
 ```
 
@@ -85,7 +90,7 @@ var out = base64ToUint8Array( str );
 
 ```javascript
 import string2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-string@deno/mod.js';
-import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-deno/mod.js';
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@deno/mod.js';
 
 var buf = string2buffer( 'Hello World!' ).toString( 'base64' );
 // returns 'SGVsbG8gV29ybGQh'
