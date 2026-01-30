@@ -46,7 +46,7 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@deno/mod.js';
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-deno/mod.js';
 ```
 
 #### base64ToUint8Array( str )
@@ -85,7 +85,7 @@ var out = base64ToUint8Array( str );
 
 ```javascript
 import string2buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-from-string@deno/mod.js';
-import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@deno/mod.js';
+import base64ToUint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-base64-to-uint8array@v0.1.0-deno/mod.js';
 
 var buf = string2buffer( 'Hello World!' ).toString( 'base64' );
 // returns 'SGVsbG8gV29ybGQh'
