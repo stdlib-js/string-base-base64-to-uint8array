@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-base64-to-uint8array",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a Base64-encoded string to a Uint8Array.",
   "license": "Apache-2.0",
   "author": {
@@ -81,7 +81,6 @@
     "uint8array",
     "bytes"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
