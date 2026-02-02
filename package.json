@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@stdlib/array-uint8": "^0.2.2",
-    "@stdlib/string-base-atob": "github:stdlib-js/string-base-atob#main"
+    "@stdlib/string-base-atob": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-uint8array": "^0.2.2",
