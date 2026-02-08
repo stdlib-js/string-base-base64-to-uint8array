@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-base64-to-uint8array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert a Base64-encoded string to a Uint8Array.",
   "license": "Apache-2.0",
   "author": {
@@ -39,11 +39,11 @@
   },
   "dependencies": {
     "@stdlib/array-uint8": "^0.2.2",
-    "@stdlib/string-base-atob": "^0.1.0"
+    "@stdlib/string-base-atob": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-uint8array": "^0.2.2",
-    "@stdlib/buffer-from-string": "^0.2.2",
+    "@stdlib/assert-is-uint8array": "^0.2.3",
+    "@stdlib/buffer-from-string": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
